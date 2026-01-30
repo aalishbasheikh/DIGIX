@@ -1,0 +1,70 @@
+.logo-name {
+  font-family: Parisienne;
+  font-size: 2.8em;
+}
+.nav-link {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+color: black;
+}
+
+
+.row {
+  width: 100%;
+}
+
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: deepskyblue;
+}
+.hero-sec-bg-img {
+ 
+  background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727)), url("premium_photo-1682787494977-d013bb5a8773.avif");
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+margin-top: 70px;
+}
+.display-3{
+    font-family: Parisienne;
+}
+.display{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    font-size: 4rem;
+}
+.border{
+  display: flex;
+  border: 1px solid gainsboro;
+  width: 90%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+
+}
+.img-fluid{
+  object-fit: cover;
+
+}
+.text{
+  font-family: Parisienne;
+  font-size: 1.2em;
+}
+.motive-bg-img{
+    background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727)), url("photo-1654613698246-b6d44aef0fd5\ \(1\).avif");
+   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: 100vw;
+}
+.ptag{
+  font-style: italic;
+  font-size: 1.1em;
+}
+.footer-container{
+  background-color: #212529;
+  height: 25rem;
+}

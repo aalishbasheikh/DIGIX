@@ -1,0 +1,72 @@
+.logo-name {
+  font-family: Parisienne;
+  font-size: 2.8em;
+}
+.nav-link {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+
+}
+
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: deepskyblue;
+}
+.row {
+  width: 95%;
+}
+.hero-sec-bg-img {
+ 
+  background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727)), url("istockphoto-1276383007-612x612.webp");
+   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 70px;
+}
+.welcm {
+  font-family: Parisienne;
+  font-size: 4em;
+}
+.welcm-below {
+  font-size: 4em;
+  line-height: 1.2;
+}
+.icons{
+  font-size: 1.9em;
+}
+.certified{
+  font-family: Parisienne;
+  font-size: 2em;
+  font-weight: 2px;
+}
+.para{
+  font-size: 1.2em;
+}
+
+.motive-bg-img{
+    background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727)), url("istockphoto-2140836981-612x612.webp");
+   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: 100vw;
+}
+.ptag{
+  font-style: italic;
+  font-size: 1.1em;
+}
+.footer-container{
+  background-color: #212529;
+  height: 25rem;
+}
+.sm-icons{
+
+  column-gap: 8px;
+  font-size: 1em;
+  color: aliceblue;
+}

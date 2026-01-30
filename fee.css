@@ -1,0 +1,81 @@
+.logo-name {
+  font-family: Parisienne;
+  font-size: 2.8em;
+}
+.nav-link {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: deepskyblue;
+}
+.hero-sec-bg-img {
+  background:
+    linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727)),
+    url("premium_photo-1680807869624-07b389d623e8.avif");
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 70px;
+}
+/* .row2{
+  width: 69%;
+} */
+.display-3 {
+ 
+font-family: Parisienne;
+
+}
+.display{
+  font-style: italic;
+  font-size:3.5rem;
+  text-wrap: wrap;
+  word-spacing: 2px;
+}
+
+.tr{
+  font-size: 1rem;
+  text-align: center;
+  text-wrap: nowrap;
+  padding-right: 3px;
+  padding-right: 1px;
+}
+th{
+  font-size: 16px;
+  
+}
+/* td{
+  text-align: right;
+
+} */
+
+.font{
+    font-size: 1rem;
+}
+.footer-container{
+  background-color: #212529;
+  height: 25rem;
+}
+@media all and (max-width: 760px){
+  tr{
+font-size: 10px;
+  }
+  th{
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 480px){
+  tr{
+font-size: 6px;
+  }
+  th{
+    font-size: 6px;
+  }
+}
