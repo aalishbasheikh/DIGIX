@@ -35,6 +35,24 @@ font-style: italic;
     word-spacing: 3px;
     font-size: 3.8rem;
 }
+@media all and (max-width: 810px){
+  .display{
+    font-size:2rem;
+  }
+  .font{
+    font-size: 2rem;
+    text-wrap: wrap;
+  }
+}
+@media all and (max-width: 450px){
+  .display{
+    font-size:1.4rem;
+  }
+  .font{
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
+}
 .cards-course-img{
 
   height: 12rem;

@@ -29,11 +29,29 @@
 }
 .welcm {
   font-family: Parisienne;
-  font-size: 4em;
+  font-size: 3em;
 }
 .welcm-below {
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.2;
+}
+@media all and (max-width: 810px){
+  .welcm{
+    font-size:2rem;
+  }
+  .welcm-below{
+    font-size: 2rem;
+    text-wrap: wrap;
+  }
+}
+@media all and (max-width: 450px){
+  .welcm{
+    font-size:1.4rem;
+  }
+  .welcm-below{
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
 }
 .icons{
   font-size: 1.9em;

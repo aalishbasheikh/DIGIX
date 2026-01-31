@@ -63,6 +63,24 @@ th{
   background-color: #212529;
   height: 25rem;
 }
+@media all and (max-width: 810px){
+  .display{
+    font-size:2rem;
+  }
+  .font{
+    font-size: 2rem;
+    text-wrap: wrap;
+  }
+}
+@media all and (max-width: 450px){
+  .display{
+    font-size:1rem;
+  }
+  .font{
+    font-size: 1rem;
+    text-wrap: wrap;
+  }
+}
 @media all and (max-width: 760px){
   tr{
 font-size: 10px;
