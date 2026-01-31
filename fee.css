@@ -61,7 +61,7 @@ th{
 }
 .footer-container{
   background-color: #212529;
-  height: 25rem;
+
 }
 @media all and (max-width: 810px){
   .display{
@@ -79,6 +79,9 @@ th{
   .font{
     font-size: 1rem;
     text-wrap: wrap;
+  }
+  .font-footer{
+    font-size: 13px;
   }
 }
 @media all and (max-width: 760px){

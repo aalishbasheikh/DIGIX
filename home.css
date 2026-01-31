@@ -52,6 +52,9 @@
     font-size: 1.4rem;
     text-wrap: wrap;
   }
+  .font-footer{
+    font-size: 12px;
+  }
 }
 .icons{
   font-size: 1.9em;
@@ -72,19 +75,22 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 70vh;
-  width: 100vw;
+  /* width: 100vw; */
 }
 .ptag{
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 1em;
+}
+.teacher{
+  font-size: 1.3rem;
 }
 .footer-container{
   background-color: #212529;
-  height: 25rem;
+  /* height: 22rem; */
 }
 .sm-icons{
 
   column-gap: 8px;
-  font-size: 1em;
+  /* font-size: 1em; */
   color: aliceblue;
 }

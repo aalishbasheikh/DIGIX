@@ -46,6 +46,13 @@ margin-top: 70px;
     font-size: 2rem;
     text-wrap: wrap;
   }
+  .text{
+     font-size: 1rem;
+  }
+  .ptag{
+  
+  font-size: 14px;
+}
 }
 @media all and (max-width: 450px){
   .display{
@@ -55,7 +62,14 @@ margin-top: 70px;
     font-size: 1.4rem;
     text-wrap: wrap;
   }
-}
+  .text{
+    font-size: 12px;
+  }
+  .font-footer{
+    font-size: 12px;
+    }
+  }
+
 .border{
   display: flex;
   border: 1px solid gainsboro;
@@ -69,7 +83,7 @@ margin-top: 70px;
 }
 .text{
   font-family: Parisienne;
-  font-size: 1.2em;
+
 }
 .motive-bg-img{
     background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727)), url("photo-1654613698246-b6d44aef0fd5\ \(1\).avif");
@@ -82,9 +96,13 @@ margin-top: 70px;
 }
 .ptag{
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 1rem;
+}
+.parent-say{
+  font-size: 1.4rem;
+  font-family: Parisienne;
 }
 .footer-container{
   background-color: #212529;
-  height: 25rem;
+  /* height: 22rem; */
 }

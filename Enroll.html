@@ -31,7 +31,7 @@
     <!-- NAVBAR SECTION -->
     <nav class="nav">
       <div
-        class="container-fluid d-flex justify-content-center align-items-center bg-light justify-content-evenly position-fixed"
+        class="container-fluid d-flex justify-content-center align-items-center bg-light justify-content-evenly position-fixed z-2"
       >
         <div
           class="row d-flex justify-md-content-between justify-content-between align-items-center justify-content-md-between w-100"
@@ -44,11 +44,11 @@
           <div
             class="col-md-6 d-flex justify-content-center align-items-center mt-3"
           >
-            <a class="nav-link fw-bold p-md-3" href="index.html">Home</a>
-            <a class="nav-link fw-bold p-md-4" href="about.html">About</a>
-            <a class="nav-link fw-bold p-md-4" href="courses.html">Courses</a>
-            <a class="nav-link fw-bold p-md-4" href="fee.html">Fee</a>
-            <a class="nav-link fw-bold p-md-4" href="contact.html">Contact</a>
+            <a class="nav-link fw-bold p-md-3 p-2 pt-1" href="index.html">Home</a>
+            <a class="nav-link fw-bold p-md-3 p-2 pt-1" href="about.html">About</a>
+            <a class="nav-link fw-bold p-md-3 p-2 pt-1" href="courses.html">Courses</a>
+            <a class="nav-link fw-bold p-md-3 p-2 pt-1" href="fee.html">Fee</a>
+            <a class="nav-link fw-bold p-md-3 p-2 pt-1" href="contact.html">Contact</a>
           </div>
           <div class="col-md-2 mt-3 d-md-flex d-none justify-content-lg-center">
             <a href="Enroll.html" class="btn btn-info">Enroll Now</a>
@@ -66,7 +66,7 @@
         <div
           class="container col-md-10 d-flex justify-content-center flex-column align-items-center"
         >
-          <h1 class="text-center text-light display-3">Contact Digix</h1>
+          <h1 class="text-center text-light font">Contact Digix</h1>
           <p class="text-center text-light display">
             Let know how to contact us
           </p>
@@ -79,7 +79,7 @@
     <!-- END OF HERO SECTION -->
     <section>
       <div
-        class="container-fluid d-flex mb-3 align-items-center justify-content-center flex-column mt-5 pt-5 p-0"
+        class="container-fluid d-flex mb-3 align-items-center justify-content-center  flex-column mt-5 pt-5 p-0"
       >
         <div class="row justify-content-center">
           <div class="col-12">
@@ -88,8 +88,8 @@
             </div>
           </div>
         </div>
-        <div class="container d-flex">
-          <div class="card ">
+        <div class="container ">
+          <div class="card shadow ">
             <div class="row w-0">
               <div
                 class="col-md-6 col-lg-4 col-12 d-flex justify-content-evenly align-items-evenly"
@@ -120,13 +120,13 @@
                     <div
                       class="d-flex justify-content-md-start justify-content-around"
                     >
-                      <span class="me-3 "
+                      <span class="me-3 fs-3 "
                         >Male
-                        <input type="radio" />
+                        <input type="radio" name="Gender" id="name"/>
                       </span>
-                      <span class="me-3 "
+                      <span class="me-3 fs-3"
                         >Female
-                        <input type="radio"/>
+                        <input type="radio" name="Gender" id="name"/>
                       </span>
                     </div>
                   </div>
@@ -158,7 +158,9 @@
                         <option value="Amazon" class="text-center">Amazon</option>
                     </select>
                   </div>
-                    <input type="Submit" value="Submit" class="btn-info mt-3 for-css">
+                  <div class="form-btn d-grid">
+                    <input type="Submit" value="Submit" class=" btn allbtns btn-info mt-3 for-css">
+                    </div>
                 </div>
               </div>
            
@@ -167,7 +169,7 @@
                 class="col-md-6 col-lg-8 col-12 d-flex justify-content-end flex-fill pe-0"
               >
                 <div
-                  class="card-img d-flex justify-content-evenly align-items-evenly flex-column"
+                  class="card-img d-md-flex d-none justify-content-evenly align-items-evenly flex-column"
                 >
 <img class="img-fluid h-100 w-100 p-0" src="photo-1658235081562-a7f50e7e05b6.avif" alt="">
         </div>
@@ -189,11 +191,11 @@
                   Digix
                 </h1>
               </div>
-              <p class="text-light font">
+              <p class="text-light font-footer">
                 5th floor,700/D kings road,green lane New York-1782
               </p>
-              <p class="text-light">+10 367 826 2567</p>
-              <p class="text-light">contact@digix.com</p>
+              <p class="text-light font-footer">+10 367 826 2567</p>
+              <p class="text-light font-footer">contact@digix.com</p>
               <div class="sm-icons">
                 <i class="fa-brands fa-facebook-f text-light"></i>
                 <i class="fa-brands fa-youtube text-light"></i>
@@ -203,12 +205,12 @@
               </div>
             </div>
             <div class="col-md-4 col-6 d-flex flex-column">
-              <h3 class="text-light pt-sm-5 pt-2">Pages</h3>
-              <p class="text-light">Home</p>
-              <p class="text-light">About</p>
-              <p class="text-light">Fee</p>
-              <p class="text-light">Courses</p>
-              <p class="text-light">Contactclass</p>
+              <h3 class="text-light pt-sm-5 pt-2 ps-4">Pages</h3>
+              <p class="text-light ps-4">Home</p>
+              <p class="text-light ps-4">About</p>
+              <p class="text-light ps-4">Fee</p>
+              <p class="text-light ps-4">Courses</p>
+              <p class="text-light ps-4">Contact</p>
             </div>
             <div class="col-md-4 col-6 d-md-flex d-none flex-column">
               <h3 class="text-light pt-5">Popular Courses</h3>
@@ -220,7 +222,7 @@
             </div>
             <hr class="text-light mt-3 mb-1" />
           </div>
-          <p class="text-center mt-md-3 footer-text text-light">
+          <p class="text-center mt-md-0 footer-text text-light font-footer">
             Copyright © 2026, all right reserved | This template is made by
             Alishba Zaheer
           </p>
